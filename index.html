@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X UA compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="mediaqueries.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/mediaqueries.css">
   <title>My Portfolio</title>
 </head>
 
@@ -68,7 +68,7 @@
     <p class="section__text__p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
     <div class="section-container">
-      <div class="section__pic-container pic2">
+      <div class="section__pic-container">
         <img src="./assets/images/portfolio-pic-2.png" alt="profile pic" class="about-pic" />
       </div>
       <div class="about-details-container">
@@ -103,7 +103,7 @@
       <div class="about-containers">
         <div class="details-container">
           <h2 class="experience-sub-title">Front End Development</h2>
-          <div class="article-container experience-div">
+          <div class="article-container">
             <article>
               <img src="assets/icons/checkmark.png" alt="checkmark icon" class="icon" />
               <div>
@@ -146,18 +146,18 @@
                 <p>Intermediate</p>
               </div>
             </article>
-            <article>
+            <!-- <article>
               <img src="assets/icons/checkmark.png" alt="checkmark icon" class="icon" />
               <div>
                 <h3>Figma</h3>
                 <p>Experienced</p>
               </div>
-            </article>
+            </article> -->
           </div>
         </div>
         <div class="details-container">
           <h2 class="experience-sub-title">Back End Development</h2>
-          <div class="article-container experience-div">
+          <div class="article-container">
             <article>
               <img src="assets/icons/checkmark.png" alt="checkmark icon" class="icon" />
               <div>
@@ -186,36 +186,15 @@
                 <p>Intermediate</p>
               </div>
             </article>
-            <article>
-              <img src="assets/icons/checkmark.png" alt="checkmark icon" class="icon" />
-              <div>
-                <h3>Railway</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img src="assets/icons/checkmark.png" alt="checkmark icon" class="icon" />
-              <div>
-                <h3>Netlify</h3>
-                <p>Intermediate</p>
-              </div>
-            </article>
-            <article>
-              <img src="assets/icons/checkmark.png" alt="checkmark icon" class="icon" />
-              <div>
-                <h3>Github</h3>
-                <p>Experienced</p>
-              </div>
-            </article>
           </div>
         </div>
       </div>
     </div>
-    <img src="assets/icons/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    <img src="assets/icons/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
   </section>
   <section id="projects">
     <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title projects-title">Projects</h1>
+    <h1 class="title">Projects</h1>
     <div class="experience-details-container">
       <div class="about-containers">
         <div class="details-container color-container">
@@ -258,25 +237,37 @@
         </div>
       </div>
     </div>
-    <img src="assets/icons/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+    <img src="assets/icons/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
   </section>
   <section id="contact">
     <p class="section__text__p1">Get In Touch</p>
     <h1 class="title">Contact Me</h1>
     <div class="contact-info-upper-container">
       <div class="contact-info-container">
-        <a href="mailto:m.behrmann11@gmail.com"><img src="./assets/icons/email.png" alt="email icon " class="icon email-icon"></a>
-        <p><a href="mailto:m.behrmann11@gmail.com">m.behrmann11@gmail.com</a></p>
+        <img 
+        src="./assets/icons/email.png" 
+        alt="email icon " 
+        class="icon contact-icon email-icon">
+        <p>
+          <a href="mailto:m.behrmann11@gmail.com">m.behrmann11@gmail.com</a>
+        </p>
       </div>
       <div class="contact-info-container">
-        <img src="./assets/icons/linkedin.png" alt="linkedin icon" class="icon contact-icon" onclick="window.open('https://www.linkedin.com/in/maxbehrmann/', '_blank')">
-        <p><a onclick="window.open('https://www.linkedin.com/in/maxbehrmann/', '_blank')">LinkedIn</a></p>
+        <img 
+        src="./assets/icons/linkedin.png" 
+        alt="linkedin icon" 
+        class="icon contact-icon" 
+        onclick="window.open('https://www.linkedin.com/in/maxbehrmann/', '_blank')" 
+        />
+        <p>
+          <a onclick="window.open('https://www.linkedin.com/in/maxbehrmann/', '_blank')">LinkedIn</a>
+        </p>
       </div>
     </div>
   </section>
 <footer>
-  <nav class="nav-links-container">
-    <div>
+  <nav>
+    <div class="nav-links-container">
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
