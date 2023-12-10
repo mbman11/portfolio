@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="X UA compatible" content="IE=edge"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X UA compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="mediaqueries.css">
   <title>My Portfolio</title>
@@ -37,6 +38,27 @@
       </div>
     </div>
   </nav>
+
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/portfolioPic.png" alt="my-portfolio-pic">
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello I'm</p>
+      <h1 class="title">Max Behrmann</h1>
+      <p class="section__text__p2">Frontend Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+        <div id="socials-container">
+          <img src="./assets/linkedinIcon.png" alt="linkedin website icon" class="icon"
+            onclick="window.open('https://www.linkedin.com/in/maxbehrmann/', '_blank')" />
+          <img src="./assets/githubIcon.png" alt="github website icon" class="icon"
+            onclick="window.open('https://github.com/mbman11', '_blank')" />
+        </div>
+      </div>
+    </div>
+  </section>
   <script src="script.js"></script>
 </body>
 
