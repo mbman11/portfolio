@@ -315,6 +315,7 @@ section {
   padding: 1.5rem;
   flex: 1;
   background: white;
+  /* background: orange; */
   border-radius: 2rem;
   border: rgb(53,53,53) 0.1rem solid;
   border-color: rgb(163,163,163);
@@ -341,7 +342,7 @@ section {
   color: rbg(85,85,85);
   font-weight: 600;
   font-size: 1.75rem;
-  /* margin-bottom: 2rem; */
+  margin-bottom: 2rem;
 }
 
 .experience-details-container {
@@ -357,6 +358,15 @@ section {
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
+}
+
+.experience-div {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 2.5rem;
+  align-items: center;
 }
 
 article {
