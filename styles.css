@@ -360,15 +360,20 @@ section {
   justify-content: space-around;
 }
 
-.experience-div {
+
+
+/* if you want original version just comment out exp-div, then remove margin-top on #project section */
+
+/* .experience-div {
   display: flex;
   text-align: initial;
+  flex: 1;
   flex-wrap: wrap;
   flex-direction: column;
   gap: 2.5rem;
   align-items: center;
 
-}
+} */
 
 article {
   display: flex;
@@ -383,7 +388,7 @@ article .icon {
 
 /* projects section */
 #projects{
-  margin-top: 200px;
+  /* margin-top: 200px; */
 }
 
 
